@@ -1,0 +1,270 @@
+CVE-2019-10980
+A type confusion vulnerability may be exploited when LAquis SCADA 4.3.1.71 processes a specially crafted project file. This may allow an attacker to execute remote code. The attacker must have local access to the system. A CVSS v3 base score of 7.8 has been calculated; the CVSS vector string is (AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H).
+CWE-843
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:laquisscada:scada:4.3.1.71:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-08-05T19:15Z
+
+CVE-2019-10981
+In Vijeo Citect 7.30 and 7.40, and CitectSCADA 7.30 and 7.40, a vulnerability has been identified that may allow an authenticated local user access to Citect user credentials.
+CWE-522
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:citectscada:7.40:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-05-31T21:29Z
+
+CVE-2019-10983
+In WebAccess/SCADA Versions 8.3.5 and prior, an out-of-bounds read vulnerability is caused by a lack of proper validation of user-supplied data. Exploitation of this vulnerability may allow disclosure of information.
+CWE-125
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-06-28T21:15Z
+
+CVE-2019-10985
+In WebAccess/SCADA, Versions 8.3.5 and prior, a path traversal vulnerability is caused by a lack of proper validation of a user-supplied path prior to use in file operations. An attacker can leverage this vulnerability to delete files while posing as an administrator.
+CWE-22
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-06-28T21:15Z
+
+CVE-2019-10987
+In WebAccess/SCADA Versions 8.3.5 and prior, multiple out-of-bounds write vulnerabilities are caused by a lack of proper validation of the length of user-supplied data. Exploitation of these vulnerabilities may allow remote code execution.
+CWE-787
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-06-28T21:15Z
+
+CVE-2019-10989
+In WebAccess/SCADA Versions 8.3.5 and prior, multiple heap-based buffer overflow vulnerabilities are caused by a lack of proper validation of the length of user-supplied data. Exploitation of these vulnerabilities may allow remote code execution. Note: A different vulnerability than CVE-2019-10991.
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-06-28T21:15Z
+
+CVE-2019-10991
+In WebAccess/SCADA, Versions 8.3.5 and prior, multiple stack-based buffer overflow vulnerabilities are caused by a lack of proper validation of the length of user-supplied data. Exploitation of these vulnerabilities may allow remote code execution.
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-06-28T21:15Z
+
+CVE-2019-10993
+In WebAccess/SCADA Versions 8.3.5 and prior, multiple untrusted pointer dereference vulnerabilities may allow a remote attacker to execute arbitrary code.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-06-28T21:15Z
+
+CVE-2019-10994
+Processing a specially crafted project file in LAquis SCADA 4.3.1.71 may trigger an out-of-bounds read, which may allow an attacker to obtain sensitive information. The attacker must have local access to the system. A CVSS v3 base score of 2.5 has been calculated; the CVSS vector string is (AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N).
+CWE-125
+LOCAL
+Severity: LOW
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:laquisscada:scada:4.3.1.71:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-08-05T19:15Z
+
+CVE-2019-13537
+The IEC870IP driver for AVEVA’s Vijeo Citect and Citect SCADA and Schneider Electric’s Power SCADA Operation has a buffer overflow vulnerability that could result in a server-side crash.
+CWE-787
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-01-14T19:15Z
+
+CVE-2019-16321
+ScadaBR 1.0CE, and 1.1.x through 1.1.0-RC, has XSS via a request for a nonexistent resource, as demonstrated by the dwr/test/ PATH_INFO.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:scadabr:scadabr:1.0ce:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-09-15T16:15Z
+
+CVE-2019-16344
+A cross-site scripting (XSS) vulnerability in the login form (/ScadaBR/login.htm) in ScadaBR 1.0CE allows a remote attacker to inject arbitrary web script or HTML via the username or password parameter.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:scadabr:scadabr:1.0ce:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-10-14T15:15Z
+
+CVE-2019-18243
+HMI/SCADA iFIX (Versions 6.1 and prior) allows a local authenticated user to modify system-wide iFIX configurations through the registry. This may allow privilege escalation.
+CWE-732
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ge:ifix:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-02-18T17:15Z
+
+CVE-2019-18255
+HMI/SCADA iFIX (Versions 6.1 and prior) allows a local authenticated user to modify system-wide iFIX configurations through section objects. This may allow privilege escalation.
+CWE-732
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ge:ifix:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-02-18T15:15Z
+
+CVE-2019-3953
+Stack-based buffer overflow in Advantech WebAccess/SCADA 8.4.0 allows a remote, unauthenticated attacker to execute arbitrary code by sending a crafted IOCTL 10012 RPC call.
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:8.4.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-06-18T23:15Z
+
+CVE-2019-3954
+Stack-based buffer overflow in Advantech WebAccess/SCADA 8.4.0 allows a remote, unauthenticated attacker to execute arbitrary code by sending a crafted IOCTL 81024 RPC call.
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:8.4.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-06-19T00:15Z
+
+CVE-2019-3975
+Stack-based buffer overflow in Advantech WebAccess/SCADA 8.4.1 allows a remote, unauthenticated attacker to execute arbitrary code via a crafted IOCTL 70603 RPC message.
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:8.4.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-09-10T16:15Z
+
+CVE-2019-5620
+ABB MicroSCADA Pro SYS600 version 9.3 suffers from an instance of CWE-306: Missing Authentication for Critical Function.
+CWE-306
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-04-29T23:15Z
+
+CVE-2019-6519
+WebAccess/SCADA, Version 8.3. An improper authentication vulnerability exists that could allow a possible authentication bypass allowing an attacker to upload malicious data.
+CWE-287
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:8.3:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-02-05T21:29Z
+
+CVE-2019-6521
+WebAccess/SCADA, Version 8.3. Specially crafted requests could allow a possible authentication bypass that could allow an attacker to obtain and manipulate sensitive information.
+CWE-287
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:8.3:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-02-05T21:29Z
+
+CVE-2019-6523
+WebAccess/SCADA, Version 8.3. The software does not properly sanitize its inputs for SQL commands.
+CWE-89
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:8.3:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-02-05T21:29Z
+
+CVE-2019-6536
+Opening a specially crafted LCDS LAquis SCADA before 4.3.1.71 ELS file may result in a write past the end of an allocated buffer, which may allow an attacker to execute remote code in the context of the current process.
+CWE-787
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:lcds:laquis_scada:4.1.0.4150:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2019-03-27T16:29Z
+
+CVE-2019-6550
+Advantech WebAccess/SCADA, Versions 8.3.5 and prior. Multiple stack-based buffer overflow vulnerabilities, caused by a lack of proper validation of the length of user-supplied data, may allow remote code execution.
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-04-05T19:29Z
+
+CVE-2019-6552
+Advantech WebAccess/SCADA, Versions 8.3.5 and prior. Multiple command injection vulnerabilities, caused by a lack of proper validation of user-supplied data, may allow remote code execution.
+CWE-78
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-04-05T19:29Z
+
+CVE-2019-6554
+Advantech WebAccess/SCADA, Versions 8.3.5 and prior. An improper access control vulnerability may allow an attacker to cause a denial-of-service condition.
+NVD-CWE-Other
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-04-05T19:29Z
+
+CVE-2019-6827
+A CWE-787: Out-of-bounds Write vulnerability exists in Interactive Graphical SCADA System (IGSS), Version 14 and prior, which could cause a software crash when data in the mdb database is manipulated.
+CWE-787
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2019-07-15T21:15Z
+
+CVE-2019-6854
+A CWE-287: Improper Authentication vulnerability exists in a folder within EcoStruxure Geo SCADA Expert (ClearSCADA) -with initial releases before 1 January 2019- which could cause a low privilege user to delete or modify database, setting or certificate files. Those users must have access to the file system of that operating system to exploit this vulnerability. Affected versions in current support includes ClearSCADA 2017 R3, ClearSCADA 2017 R2, and ClearSCADA 2017.
+NVD-CWE-Other
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:clearscada:2017:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-01-06T23:15Z
+

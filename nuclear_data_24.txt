@@ -1,0 +1,230 @@
+CVE-2024-10313
+iniNet Solutions SpiderControl SCADA PC HMI Editor has a path traversal 
+vulnerability. When the software loads a malicious ‘ems' project 
+template file constructed by an attacker, it can write files to 
+arbitrary directories. This can lead to overwriting system files, 
+causing system paralysis, or writing to startup items, resulting in 
+remote control.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-10-24T18:15Z
+
+CVE-2024-21764
+In Rapid Software LLC's Rapid SCADA versions prior to Version 5.8.4, the product uses hard-coded credentials, which may allow an attacker to connect to a specific port.
+
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-02-02T00:15Z
+
+CVE-2024-21794
+In Rapid Software LLC's Rapid SCADA versions prior to Version 5.8.4, an attacker can redirect users to malicious pages through the login page.
+
+CWE-601
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-02-02T00:15Z
+
+CVE-2024-21852
+In Rapid Software LLC's Rapid SCADA versions prior to Version 5.8.4, an attacker can supply a malicious configuration file by utilizing a Zip Slip vulnerability in the unpacking routine to achieve remote code execution.
+
+CWE-22
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-02-01T23:15Z
+
+CVE-2024-21866
+In Rapid Software LLC's Rapid SCADA versions prior to Version 5.8.4, the affected product responds back with an error message containing sensitive data if it receives a specific malformed request.
+
+CWE-209
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-02-02T00:15Z
+
+CVE-2024-21869
+In Rapid Software LLC's Rapid SCADA versions prior to Version 5.8.4, the affected product stores plaintext credentials in various places. This may allow an attacker with local access to see them.
+
+CWE-522
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-02-02T00:15Z
+
+CVE-2024-22016
+In Rapid Software LLC's Rapid SCADA versions prior to Version 5.8.4, an authorized user can write directly to the Scada directory. This may allow privilege escalation.
+
+CWE-732
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-02-02T00:15Z
+
+CVE-2024-22096
+In Rapid Software LLC's Rapid SCADA versions prior to Version 5.8.4, an attacker can append path traversal characters to the filename when using a specific command, allowing them to read arbitrary files from the system.
+
+CWE-22
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-02-02T00:15Z
+
+CVE-2024-2453
+
+There is an SQL injection vulnerability in Advantech WebAccess/SCADA software that allows an authenticated attacker to remotely inject SQL code in the database. Successful exploitation of this vulnerability could allow an attacker to read or modify data on the remote database.
+
+
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-03-21T23:15Z
+
+CVE-2024-2882
+SDG Technologies PnPSCADA allows a remote attacker to attach various entities without requiring system authentication. This breach could potentially lead to unauthorized control, data manipulation, and access to sensitive information within the SCADA system.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-06-27T19:15Z
+
+CVE-2024-3746
+The entire parent directory - C:\ScadaPro and its sub-directories and 
+files are configured by default to allow user, including unprivileged 
+users, to write or overwrite files.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-04-30T20:15Z
+
+CVE-2024-3980
+The MicroSCADA Pro/X SYS600 product allows an authenticated user input to control or influence paths or file names
+that are used in filesystem operations. If exploited the vulnerability allows the attacker to access or modify system files or
+other files that are critical to the application.
+CWE-22
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:hitachienergy:microscada_pro_sys600:9.4:fixpack_1:*:*:*:*:*:*
+foundational
+Published Date: 2024-08-27T13:15Z
+
+CVE-2024-3982
+An attacker with local access to machine where MicroSCADA X
+SYS600 is installed, could enable the session logging supporting the product and try to exploit a session hijacking of an already established session. By default, the session logging level
+is not enabled and only users with administrator rights can enable it.
+CWE-294
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:hitachienergy:microscada_x_sys600:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-08-27T13:15Z
+
+CVE-2024-47015
+In ProtocolMiscHwConfigChangeAdapter::GetData() of protocolmiscadapter.cpp, there is a possible out-of-bounds read due to a missing bounds check. This could lead to local information disclosure with baseband firmware compromise required. User Interaction is not needed for exploitation.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-10-25T11:15Z
+
+CVE-2024-4708
+mySCADA myPRO 
+
+uses a hard-coded password which could allow an attacker to remotely execute code on the affected device.
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-07-02T23:15Z
+
+CVE-2024-47221
+CheckUser in ScadaServerEngine/MainLogic.cs in Rapid SCADA through 5.8.4 allows an empty password.
+CWE-521
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:rapidscada:rapid_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-09-22T01:15Z
+
+CVE-2024-4872
+A vulnerability exists in the query validation of the MicroSCADA Pro/X SYS600 product. If exploited this could allow an authenticated attacker to inject code towards persistent data. Note that to successfully exploit this vulnerability
+an attacker must have a valid credential.
+NVD-CWE-Other
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:hitachienergy:microscada_pro_sys600:9.4:fixpack_2_hf5:*:*:*:*:*:*
+foundational
+Published Date: 2024-08-27T13:15Z
+
+CVE-2024-5040
+There are multiple ways in 
+LCDS LAquis SCADA for an attacker to access locations outside of their own directory.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-21T21:15Z
+
+CVE-2024-7901
+A vulnerability has been found in Scada-LTS 2.7.8 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /Scada-LTS/app.shtm#/alarms/Scada of the component Message Handler. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. NOTE: A fix is planned for the upcoming release at the end of September 2024.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:scada-lts:scada-lts:2.7.8:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2024-08-17T21:15Z
+
+CVE-2024-7940
+The product exposes a service that is intended for local only to
+all network interfaces without any authentication.
+CWE-306
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:hitachienergy:microscada_x_sys600:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-08-27T13:15Z
+
+CVE-2024-7941
+An HTTP parameter may contain a URL value and could cause
+the web application to redirect the request to the specified URL.
+By modifying the URL value to a malicious site, an attacker may
+successfully launch a phishing scam and steal user credentials.
+CWE-601
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:hitachienergy:microscada_x_sys600:10.5:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2024-08-27T13:15Z
+
+CVE-2024-8232
+SpiderControl SCADA Web Server has a vulnerability that could allow an 
+attacker to upload specially crafted malicious files without 
+authentication.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-09-10T20:15Z
+
+CVE-2024-9414
+In LAquis SCADA version 4.7.1.511, a cross-site scripting vulnerability could allow an attacker to inject arbitrary code into a web page. This could allow an attacker to steal cookies, redirect users, or perform unauthorized actions.
+CWE-79
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-10-17T16:15Z
+

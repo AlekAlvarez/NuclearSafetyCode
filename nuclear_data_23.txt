@@ -1,0 +1,499 @@
+CVE-2023-0595
+A CWE-117: Improper Output Neutralization for Logs vulnerability exists that could cause the misinterpretation of log files when malicious packets are sent to the Geo SCADA server's database web port (default 443). Affected products: EcoStruxure Geo SCADA Expert 2019, EcoStruxure Geo SCADA Expert 2020, EcoStruxure Geo SCADA Expert 2021(All Versions prior to October 2022), ClearSCADA (All Versions)
+
+
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:ecostruxure_geo_scada_expert_2021:-:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-02-24T11:15Z
+
+CVE-2023-0839
+Improper Protection for Outbound Error Messages and Alert Signals vulnerability in ProMIS Process Co. InSCADA allows Account Footprinting.This issue affects inSCADA: before 20230115-1.
+
+
+CPE 23 Uri: cpe:2.3:a:inscada_project:inscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-03-06T08:15Z
+
+CVE-2023-0956
+
+External input could be used on TEL-STER TelWin SCADA WebInterface to construct paths to files and directories without properly neutralizing special elements within the pathname, which could allow an unauthenticated attacker to read files on the system.
+
+
+CWE-22
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:tel-ster:telwin_scada_webinterface:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-08-03T19:15Z
+
+CVE-2023-1256
+The listed versions of AVEVA Plant SCADA and AVEVA Telemetry Server are vulnerable to an improper authorization exploit which could allow an unauthenticated user to remotely read data, cause denial of service, and tamper with alarm states.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:aveva:aveva_plant_scada:2023:update_10:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-03-16T19:15Z
+
+CVE-2023-1437
+All versions prior to 9.1.4 of Advantech WebAccess/SCADA are vulnerable to use of untrusted pointers. The RPC arguments the client sent could contain raw memory pointers for the server to use as-is. This could allow an attacker to gain access to the remote file system and the ability to execute commands and overwrite files.
+
+
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-08-02T23:15Z
+
+CVE-2023-1934
+The PnPSCADA system, a product of SDG Technologies CC, is afflicted by a critical unauthenticated error-based PostgreSQL Injection vulnerability. Present within the hitlogcsv.jsp endpoint, this security flaw permits unauthenticated attackers to engage with the underlying database seamlessly and passively. Consequently, malicious actors could gain access to vital information, such as Industrial Control System (ICS) and OT data, alongside other sensitive records like SMS and SMS Logs. The unauthorized database access exposes compromised systems to potential manipulation or breach of essential infrastructure data, highlighting the severity of this vulnerability.
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:sdg:pnpscada:2.200816204020:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-05-12T14:15Z
+
+CVE-2023-2186
+On Triangle MicroWorks' SCADA Data Gateway version <= v5.01.03, an unauthenticated attacker can send a specially crafted broadcast message including format string characters to the SCADA Data Gateway to perform unrestricted memory reads.An unauthenticated user can use this format string vulnerability to repeatedly crash the GTWWebMonitor.exe process to DoS the Web Monitor.  Furthermore, an authenticated user can leverage this vulnerability to leak memory from the GTWWebMonitor.exe process. This could be leveraged in an exploit chain to gain code execution.
+CWE-134
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trianglemicroworks:scada_data_gateway:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-06-07T07:15Z
+
+CVE-2023-2187
+On Triangle MicroWorks' SCADA Data Gateway version <= v5.01.03, an unauthenticated attacker can send broadcast events to any user via the WebMonitor.An unauthenticated user can use this vulnerability to forcefully log out of any currently logged-in user by sending a "password change event". Furthermore, an attacker could use this vulnerability to spam the logged-in user with false events.
+NVD-CWE-noinfo
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trianglemicroworks:scada_data_gateway:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-06-07T07:15Z
+
+CVE-2023-22450
+
+
+
+In Advantech WebAccss/SCADA v9.1.3 and prior, there is an arbitrary file upload vulnerability that could allow an attacker to upload an ASP script file to a webserver when logged in as manager user, which can lead to arbitrary code execution.
+
+
+
+
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-06-06T00:15Z
+
+CVE-2023-22610
+
+A CWE-863: Incorrect Authorization vulnerability exists that could cause Denial of
+Service against the Geo SCADA server when specific messages are sent to the server over the
+database server TCP port. 
+
+
+
+
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:ecostruxure_geo_scada_expert_2021:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-01-31T17:15Z
+
+CVE-2023-22611
+A CWE-200: Exposure of Sensitive Information to an Unauthorized Actor vulnerability exists that could cause information disclosure when specific messages are sent to the server over the database server TCP port. Affected Products: EcoStruxure Geo SCADA Expert 2019 - 2021 (formerly known as ClearSCADA) (Versions prior to October 2022)
+NVD-CWE-noinfo
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:ecostruxure_geo_scada_expert_2021:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-01-31T17:15Z
+
+CVE-2023-28384
+mySCADA myPRO versions 8.26.0 and prior has parameters which an authenticated user could exploit to inject arbitrary operating system commands.
+CWE-78
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-04-27T23:15Z
+
+CVE-2023-28400
+mySCADA myPRO versions 8.26.0 and prior has parameters which an authenticated user could exploit to inject arbitrary operating system commands. 
+CWE-78
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-04-27T23:15Z
+
+CVE-2023-2866
+
+If an attacker can trick an authenticated user into loading a maliciously crafted .zip file onto Advantech WebAccess version 8.4.5, a web shell could be used to give the attacker full control of the SCADA server. 
+
+
+CWE-345
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess:8.4.5:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-06-07T21:15Z
+
+CVE-2023-28716
+mySCADA myPRO versions 8.26.0 and prior has parameters which an authenticated user could exploit to inject arbitrary operating system commands. 
+CWE-78
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-04-27T23:15Z
+
+CVE-2023-29150
+mySCADA myPRO versions 8.26.0 and prior has parameters which an authenticated user could exploit to inject arbitrary operating system commands. 
+CWE-78
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-04-27T23:15Z
+
+CVE-2023-29169
+mySCADA myPRO versions 8.26.0 and prior has parameters which an authenticated user could exploit to inject arbitrary operating system commands. 
+CWE-78
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-04-27T23:15Z
+
+CVE-2023-30459
+SmartPTT SCADA 1.1.0.0 allows remote code execution (when the attacker has administrator privileges) by writing a malicious C# script and executing it on the server (via server settings in the administrator control panel on port 8101, by default).
+NVD-CWE-noinfo
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:smartptt:smartptt_scada:1.1:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-04-14T15:15Z
+
+CVE-2023-32540
+
+In Advantech WebAccss/SCADA v9.1.3 and prior, there is an arbitrary file overwrite vulnerability, which could allow an attacker to overwrite any file in the operating system (including system files), inject code into an XLS file, and modify the file extension, which could lead to arbitrary code execution.
+
+
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-06-06T00:15Z
+
+CVE-2023-32628
+
+
+
+
+
+In Advantech WebAccss/SCADA v9.1.3 and prior, there is an arbitrary file upload vulnerability that could allow an attacker to modify the file extension of a certificate file to ASP when uploading it, which can lead to remote code execution.
+
+
+
+
+
+
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-06-06T00:15Z
+
+CVE-2023-3329
+SpiderControl SCADA Webserver versions 2.08 and prior are vulnerable to path traversal. An attacker with administrative privileges could overwrite files on the webserver using the HMI's upload file feature. This could create size zero files anywhere on the webserver, potentially overwriting system files and creating a denial-of-service condition.
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:spidercontrol:scadawebserver:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-08-02T23:15Z
+
+CVE-2023-33472
+An issue was discovered in Scada-LTS v2.7.5.2 build 4551883606 and before, allows remote attackers with low-level authentication to escalate privileges, execute arbitrary code, and obtain sensitive information via Event Handlers function.
+NVD-CWE-noinfo
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:scada-lts:scada-lts:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2024-01-13T02:15Z
+
+CVE-2023-35648
+In ProtocolMiscLceIndAdapter::GetConfLevel() of protocolmiscadapter.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure with baseband firmware compromise required. User interaction is not needed for exploitation.
+
+
+CWE-125
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-10-11T20:15Z
+
+CVE-2023-39457
+Triangle MicroWorks SCADA Data Gateway Missing Authentication Vulnerability. This vulnerability allows remote attackers to bypass authentication on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists due to the lack of user authentication. The issue results from missing authentication in the default system configuration. An attacker can leverage this vulnerability to execute arbitrary code in the context of root. Was ZDI-CAN-20501.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39458
+Triangle MicroWorks SCADA Data Gateway Use of Hard-coded Credentials Authentication Bypass Vulnerability. This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the handling of certificates. The service uses a hard-coded default SSL certificate. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-20509.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39459
+Triangle MicroWorks SCADA Data Gateway Directory Traversal Arbitrary File Creation Vulnerability. This vulnerability allows remote attackers to create arbitrary files on affected installations of Triangle MicroWorks SCADA Data Gateway. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.
+
+The specific flaw exists within the processing of workspace files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of Administrator. Was ZDI-CAN-20531.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39460
+Triangle MicroWorks SCADA Data Gateway Event Log Directory Traversal Arbitrary File Creation Vulnerability. This vulnerability allows remote attackers to create arbitrary files on affected installations of Triangle MicroWorks SCADA Data Gateway. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.
+
+The specific flaw exists within the creation of event logs. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root. Was ZDI-CAN-20534.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39461
+Triangle MicroWorks SCADA Data Gateway Event Log Improper Output Neutralization For Logs Arbitrary File Write Vulnerability. This vulnerability allows remote attackers to write arbitrary files on affected installations of Triangle MicroWorks SCADA Data Gateway. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.
+
+The specific flaw exists within the handling of event logs. The issue results from improper sanitization of log output. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root. Was ZDI-CAN-20535.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39462
+Triangle MicroWorks SCADA Data Gateway Workspace Unrestricted Upload Vulnerability. This vulnerability allows remote attackers to upload arbitrary files on affected installations of Triangle MicroWorks SCADA Data Gateway. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.
+
+The specific flaw exists within the processing of workspace files. The issue results from the lack of proper validation of user-supplied data, which can allow the upload of arbitrary files. An attacker can leverage this in conjunction with other vulnerabilitites to execute arbitrary code in the context of root. Was ZDI-CAN-20536.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39463
+Triangle MicroWorks SCADA Data Gateway Trusted Certification Unrestricted Upload of File Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Triangle MicroWorks SCADA Data Gateway. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.
+
+The specific flaw exists within the trusted certification feature. The issue lies in the handling of the OpcUaSecurityCertificateAuthorityTrustDir variable, which allows an arbitrary file write with attacker-controlled data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-20537.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39464
+Triangle MicroWorks SCADA Data Gateway GTWWebMonitorService Unquoted Search Path Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute code on affected installations of Triangle MicroWorks SCADA Data Gateway. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.
+
+The specific flaw exists within the configuration of the GTWWebMonitorService service. The path to the service executable contains spaces not surrounded by quotations. An attacker can leverage this vulnerability to execute arbitrary code in the context of root. Was ZDI-CAN-20538.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39465
+Triangle MicroWorks SCADA Data Gateway Use of Hard-coded Cryptograhic Key Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the TmwCrypto class. The issue results from the usage of a hard-coded cryptograhic key and the usage of a hard-coded certificate. An attacker can leverage this vulnerability to disclose sensitive information. Was ZDI-CAN-20615.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39466
+Triangle MicroWorks SCADA Data Gateway get_config Missing Authentication Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the get_config endpoint. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose sensitive information. Was ZDI-CAN-20797.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39467
+Triangle MicroWorks SCADA Data Gateway certificate Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability.
+
+The specific flaw exists within the configuration of certificate web directory. The issue results from the exposure of sensitive information in the application webroot. An attacker can leverage this vulnerability to disclose sensitive information. Was ZDI-CAN-20798.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-39468
+Triangle MicroWorks SCADA Data Gateway DbasSectorFileToExecuteOnReset Exposed Dangerous Function Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is required to exploit this vulnerability.
+
+The specific flaw exists within the handling of DbasSectorFileToExecuteOnReset parameter. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-20799.
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2024-05-03T03:15Z
+
+CVE-2023-42488
+ EisBaer Scada - CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:busbaer:eisbaer_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-10-25T18:17Z
+
+CVE-2023-42489
+ EisBaer Scada - CWE-732: Incorrect Permission Assignment for Critical Resource
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:busbaer:eisbaer_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-10-25T18:17Z
+
+CVE-2023-42490
+
+
+EisBaer Scada - CWE-200: Exposure of Sensitive Information to an Unauthorized Actor
+
+
+NVD-CWE-noinfo
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:busbaer:eisbaer_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-10-25T18:17Z
+
+CVE-2023-42491
+EisBaer Scada - CWE-285: Improper Authorization
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:busbaer:eisbaer_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-10-25T18:17Z
+
+CVE-2023-42492
+ EisBaer Scada - CWE-321: Use of Hard-coded Cryptographic Key
+CWE-798
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:busbaer:eisbaer_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-10-25T18:17Z
+
+CVE-2023-42493
+   EisBaer Scada - CWE-256: Plaintext Storage of a Password
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:busbaer:eisbaer_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-10-25T18:17Z
+
+CVE-2023-42494
+    EisBaer Scada - CWE-749: Exposed Dangerous Method or Function
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:busbaer:eisbaer_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-10-25T18:17Z
+
+CVE-2023-4485
+ARDEREG ?Sistema SCADA Central versions 2.203 and prior
+login page are vulnerable to an unauthenticated blind SQL injection attack. An attacker could manipulate the application's SQL query logic to extract sensitive information or perform unauthorized actions within the database. In this case, the vulnerability could allow an attacker to execute arbitrary SQL queries through the login page, potentially leading to unauthorized access, data leakage, or even disruption of critical industrial processes.
+
+
+CWE-89
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ardereg:sistemas_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-09-06T00:15Z
+
+CVE-2023-4516
+
+A CWE-306: Missing Authentication for Critical Function vulnerability exists in the IGSS Update
+Service that could allow a local attacker to change update source, potentially leading to remote
+code execution when the attacker force an update containing malicious content.
+
+
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-09-14T09:15Z
+
+CVE-2023-48399
+In ProtocolMiscATCommandAdapter::Init() of protocolmiscadapter.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with baseband firmware compromise required. User interaction is not needed for exploitation.
+CWE-125
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-12-08T16:15Z
+
+CVE-2023-48404
+In ProtocolMiscCarrierConfigSimInfoIndAdapter of protocolmiscadapter.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
+CWE-125
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-12-08T16:15Z
+
+CVE-2023-48411
+In SignalStrengthAdapter::FillGsmSignalStrength() of protocolmiscadapter.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with baseband firmware compromise required. User interaction is not needed for exploitation.
+CWE-125
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:o:google:android:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2023-12-08T16:15Z
+
+CVE-2023-4985
+A vulnerability classified as critical has been found in Supcon InPlant SCADA up to 20230901. Affected is an unknown function of the file Project.xml. The manipulation leads to improper authentication. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-239796. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:supcon:inplant_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-09-15T15:15Z
+
+CVE-2023-4986
+A vulnerability classified as problematic was found in Supcon InPlant SCADA up to 20230901. Affected by this vulnerability is an unknown functionality of the file Project.xml. The manipulation leads to password hash with insufficient computational effort. Local access is required to approach this attack. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The identifier VDB-239797 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+LOCAL
+Severity: LOW
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:supcon:inplant_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2023-09-15T15:15Z
+

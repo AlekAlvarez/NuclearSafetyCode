@@ -1,0 +1,448 @@
+CVE-2020-10611
+Triangle MicroWorks SCADA Data Gateway 3.02.0697 through 4.0.122, 2.41.0213 through 4.0.122 allows remote attackers to execute arbitrary code due to the lack of proper validation of user-supplied data, which can result in a type confusion condition. Authentication is not required to exploit this vulnerability. Only applicable to installations using DNP3 Data Sets.
+CWE-843
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trianglemicroworks:scada_data_gateway:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-15T19:15Z
+
+CVE-2020-10613
+Triangle MicroWorks SCADA Data Gateway 3.02.0697 through 4.0.122, 2.41.0213 through 4.0.122 allows remote attackers to disclose sensitive information due to the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated structure. Authentication is not required to exploit this vulnerability. Only applicable to installations using DNP3 Data Sets.
+CWE-125
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trianglemicroworks:scada_data_gateway:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-15T19:15Z
+
+CVE-2020-10615
+Triangle MicroWorks SCADA Data Gateway 3.02.0697 through 4.0.122, 2.41.0213 through 4.0.122 allows remote attackers cause a denial-of-service condition due to a lack of proper validation of the length of user-supplied data, prior to copying it to a fixed-length stack-based buffer. Authentication is not required to exploit this vulnerability.
+CWE-787
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trianglemicroworks:scada_data_gateway:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-15T19:15Z
+
+CVE-2020-10618
+LCDS LAquis SCADA Versions 4.3.1 and prior. The affected product is vulnerable to sensitive information exposure by unauthorized users.
+CWE-200
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:lcds:laquis_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-05-04T19:15Z
+
+CVE-2020-10622
+LCDS LAquis SCADA Versions 4.3.1 and prior. The affected product is vulnerable to arbitrary file creation by unauthorized users
+NVD-CWE-noinfo
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:lcds:laquis_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-05-04T19:15Z
+
+CVE-2020-10632
+Inadequate folder security permissions in Emerson OpenEnterprise versions through 3.3.4 may allow modification of important configuration files, which could cause the system to fail or behave in an unpredictable manner.
+NVD-CWE-Other
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:emerson:openenterprise_scada_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-24T19:15Z
+
+CVE-2020-10636
+Inadequate encryption may allow the passwords for Emerson OpenEnterprise versions through 3.3.4 user accounts to be obtained.
+CWE-326
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:emerson:openenterprise_scada_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-24T19:15Z
+
+CVE-2020-10640
+Emerson OpenEnterprise versions through 3.3.4 may allow an attacker to run an arbitrary commands with system privileges or perform remote code execution via a specific communication service.
+CWE-306
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:emerson:openenterprise_scada_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-24T19:15Z
+
+CVE-2020-13550
+A local file inclusion vulnerability exists in the installation functionality of Advantech WebAccess/SCADA 9.0.1. A specially crafted application can lead to information disclosure. An attacker can send an authenticated HTTP request to trigger this vulnerability.
+CWE-22
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:9.0.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-02-17T19:15Z
+
+CVE-2020-13551
+An exploitable local privilege elevation vulnerability exists in the file system permissions of Advantech WebAccess/SCADA 9.0.1 installation. In privilege escalation via PostgreSQL executable, an attacker can either replace binary or loaded modules to execute code with NT SYSTEM privilege.
+CWE-276
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:9.0.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-02-17T19:15Z
+
+CVE-2020-13552
+An exploitable local privilege elevation vulnerability exists in the file system permissions of Advantech WebAccess/SCADA 9.0.1 installation. In privilege escalation via multiple service executables in installation folder of WebAccess, an attacker can either replace binary or loaded modules to execute code with NT SYSTEM privilege.
+CWE-276
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:9.0.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-02-17T19:15Z
+
+CVE-2020-13553
+An exploitable local privilege elevation vulnerability exists in the file system permissions of Advantech WebAccess/SCADA 9.0.1 installation. In webvrpcs Run Key Privilege Escalation in installation folder of WebAccess, an attacker can either replace binary or loaded modules to execute code with NT SYSTEM privilege.
+CWE-276
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:9.0.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-02-17T19:15Z
+
+CVE-2020-13554
+An exploitable local privilege elevation vulnerability exists in the file system permissions of Advantech WebAccess/SCADA 9.0.1 installation. In webvrpcs Run Key Privilege Escalation in installation folder of WebAccess, an attacker can either replace binary or loaded modules to execute code with NT SYSTEM privilege.
+CWE-276
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:9.0.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-03-03T17:15Z
+
+CVE-2020-13555
+An exploitable local privilege elevation vulnerability exists in the file system permissions of Advantech WebAccess/SCADA 9.0.1 installation. In COM Server Application Privilege Escalation, an attacker can either replace binary or loaded modules to execute code with NT SYSTEM privilege.
+CWE-276
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:9.0.1:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-02-17T19:15Z
+
+CVE-2020-13559
+A denial-of-service vulnerability exists in the traffic-logging functionality of FreyrSCADA IEC-60879-5-104 Server Simulator 21.04.028. A specially crafted packet can lead to denial of service. An attacker can send a malicious packet to trigger this vulnerability.
+CWE-697
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:freyrscada:iec-60879-5-104_server_simulator:21.04.028:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-01-11T19:15Z
+
+CVE-2020-16235
+Inadequate encryption may allow the credentials used by Emerson OpenEnterprise, up through version 3.3.5, to access field devices and external systems to be obtained.
+CWE-326
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:emerson:openenterprise_scada_server:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-19T18:15Z
+
+CVE-2020-22722
+Rapid Software LLC Rapid SCADA 5.8.0 is affected by a local privilege escalation vulnerability in the ScadaAgentSvc.exe executable file. An attacker can obtain admin privileges by placing a malicious .exe file in the application and renaming it ScadaAgentSvc.exe, which would result in executing the binary as NT AUTHORITY\SYSTEM in a Windows operating system. For example, an attacker can plant a reverse shell from a low privileged user account and by restarting the computer, the malicious service will be started as NT AUTHORITY\SYSTEM by giving the attacker full system access to the remote PC.
+CWE-434
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2020-08-14T16:15Z
+
+CVE-2020-24841
+PNPSCADA 2.200816204020 allows SQL injection via parameter 'interf' in /browse.jsp. Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit latent vulnerabilities in the underlying database.
+CWE-89
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:sdg:pnpscada:2.200816204020:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-02-16T13:15Z
+
+CVE-2020-24842
+PNPSCADA 2.200816204020 allows cross-site scripting (XSS), which can execute arbitrary JavaScript in the victim's browser.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:sdgc:pnpscada:2.200816204020:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2021-02-10T22:15Z
+
+CVE-2020-25161
+The WADashboard component of WebAccess/SCADA Versions 9.0 and prior may allow an attacker to control or influence a path used in an operation on the filesystem and remotely execute code as an administrator.
+CWE-610
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-02-23T17:15Z
+
+CVE-2020-25188
+An attacker who convinces a valid user to open a specially crafted project file to exploit could execute code under the privileges of the application due to an out-of-bounds read vulnerability on the LAquis SCADA (Versions prior to 4.3.1.870).
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:laquisscada:scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-10-14T13:15Z
+
+CVE-2020-28219
+A CWE-522: Insufficiently Protected Credentials vulnerability exists in EcoStruxure Geo SCADA Expert 2019 (Original release and Monthly Updates to September 2020, from 81.7268.1 to 81.7578.1) and EcoStruxure Geo SCADA Expert 2020 (Original release and Monthly Updates to September 2020, from 83.7551.1 to 83.7578.1), that could cause exposure of credentials to server-side users when web users are logged in to Virtual ViewX.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:ecostruxure_geo_scada_expert_2019:*:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-12-11T01:15Z
+
+CVE-2020-6970
+A Heap-based Buffer Overflow was found in Emerson OpenEnterprise SCADA Server 2.83 (if Modbus or ROC Interfaces have been installed and are in use) and all versions of OpenEnterprise 3.1 through 3.3.3, where a specially crafted script could execute code on the OpenEnterprise Server.
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:emerson:openenterprise_scada_server:2.8.3:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-02-19T21:15Z
+
+CVE-2020-6992
+A local privilege escalation vulnerability has been identified in the GE Digital CIMPLICITY HMI/SCADA product v10.0 and prior. If exploited, this vulnerability could allow an adversary to modify the system, leading to the arbitrary execution of code. This vulnerability is only exploitable if an attacker has access to an authenticated session. GE Digital CIMPLICITY v11.0, released January 2020, contains mitigation for this local privilege escalation vulnerability. GE Digital recommends all users upgrade to GE CIMPLICITY v11.0 or newer.
+CWE-269
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ge:cimplicity:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-04-15T17:15Z
+
+CVE-2020-7478
+A CWE-22: Improper Limitation of a Pathname to a Restricted Directory exists in IGSS (Versions 14 and prior using the service: IGSSupdate), which could allow a remote unauthenticated attacker to read arbitrary files from the IGSS server PC on an unrestricted or shared network when the IGSS Update Service is enabled.
+CWE-22
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-03-23T20:15Z
+
+CVE-2020-7479
+A CWE-306: Missing Authentication for Critical Function vulnerability exists in IGSS (Versions 14 and prior using the service: IGSSupdate), which could allow a local user to execute processes that otherwise require escalation privileges when sending local network commands to the IGSS Update Service.
+CWE-306
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-03-23T20:15Z
+
+CVE-2020-7528
+A CWE-502 Deserialization of Untrusted Data vulnerability exists in SCADAPack 7x Remote Connect (V3.6.3.574 and prior) which could allow arbitrary code execution when an attacker builds a custom .PRJ file containing a malicious serialized buffer.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:scadapack_7x_remote_connect:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-09-16T16:15Z
+
+CVE-2020-7529
+A CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Transversal') vulnerability exists in SCADAPack 7x Remote Connect (V3.6.3.574 and prior) which allows an attacker to place content in any unprotected folder on the target system using a crafted .RCZ file.
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:scadapack_7x_remote_connect:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-09-16T16:15Z
+
+CVE-2020-7530
+A CWE-285 Improper Authorization vulnerability exists in SCADAPack 7x Remote Connect (V3.6.3.574 and prior) which allows improper access to executable code folders.
+NVD-CWE-Other
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:scadapack_7x_remote_connect:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-09-16T16:15Z
+
+CVE-2020-7531
+A CWE-284 Improper Access Control vulnerability exists in SCADAPack 7x Remote Connect (V3.6.3.574 and prior) which allows an attacker to place executables in a specific folder and run code whenever RemoteConnect is executed by the user.
+NVD-CWE-noinfo
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:scadapack_7x_remote_connect:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-09-16T16:15Z
+
+CVE-2020-7532
+A CWE-502 Deserialization of Untrusted Data vulnerability exists in SCADAPack x70 Security Administrator (V1.2.0 and prior) which could allow arbitrary code execution when an attacker builds a custom .SDB file containing a malicious serialized buffer.
+CWE-502
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:scadapack_x70_security_administrator:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-09-16T16:15Z
+
+CVE-2020-7545
+A CWE-284:Improper Access Control vulnerability exists in EcoStruxureª and SmartStruxureª Power Monitoring and SCADA Software (see security notification for version information) that could allow for arbitrary code execution on the server when an authorized user access an affected webpage.
+NVD-CWE-Other
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:powerscada_expert_with_advanced_reporting_and_dashboards:8.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-12-01T15:15Z
+
+CVE-2020-7546
+A CWE-79: Improper Neutralization of Input During Web Page Generation vulnerability exists in EcoStruxureª and SmartStruxureª Power Monitoring and SCADA Software (see security notification for version information) that could allow an attacker to perform actions on behalf of the authorized user when accessing an affected webpage.
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:powerscada_expert_with_advanced_reporting_and_dashboards:8.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-12-01T15:15Z
+
+CVE-2020-7547
+A CWE-284: Improper Access Control vulnerability exists in EcoStruxureª and SmartStruxureª Power Monitoring and SCADA Software (see security notification for version information) that could allow a user the ability to perform actions via the web interface at a higher privilege level.
+NVD-CWE-Other
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:powerscada_expert_with_advanced_reporting_and_dashboards:8.0:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-12-01T15:15Z
+
+CVE-2020-7550
+A CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247 and prior that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-7551
+A CWE-787: Out-of-bounds Write vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247, that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+CWE-787
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-7552
+A CWE-787: Out-of-bounds Write vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247, that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+CWE-787
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-7553
+A CWE-787 Out-of-bounds Write vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247 that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-7554
+A CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247 that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-7555
+A CWE-787 Out-of-bounds Write vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247 that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-7556
+A CWE-787 Out-of-bounds Write vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247 that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-7557
+A CWE-125 Out-of-bounds Read vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247 that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-7558
+A CWE-787 Out-of-bounds Write vulnerability exists in IGSS Definition (Def.exe) version 14.0.0.20247 that could cause Remote Code Execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2020-11-19T22:15Z
+
+CVE-2020-8475
+For the Central Licensing Server component used in ABB products ABB Ability™ System 800xA and related system extensions versions 5.1, 6.0 and 6.1, Compact HMI versions 5.1 and 6.0, Control Builder Safe 1.0, 1.1 and 2.0, Symphony Plus -S+ Operations 3.0 to 3.2 Symphony Plus -S+ Engineering 1.1 to 2.2, Composer Harmony 5.1, 6.0 and 6.1, Melody Composer 5.3, 6.1/6.2 and SPE for Melody 1.0SPx (Composer 6.3), Harmony OPC Server (HAOPC) Standalone 6.0, 6.1 and 7.0, ABB Ability™ System 800xA/ Advant® OCS Control Builder A 1.3 and 1.4, Advant® OCS AC100 OPC Server 5.1, 6.0 and 6.1, Composer CTK 6.1 and 6.2, AdvaBuild 3.7 SP1 and SP2, OPCServer for MOD 300 (non-800xA) 1.4, OPC Data Link 2.1 and 2.2, Knowledge Manager 8.0, 9.0 and 9.1, Manufacturing Operations Management 1812 and 1909, ABB AbilityTM SCADAvantage versions 5.1 to 5.6.5, a weakness in validation of input exists that allows an attacker to block license handling by sending specially crafted messages to the CLS web service.
+CWE-20
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:abb:compact_hmi:5.1:revision_d:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-29T02:15Z
+
+CVE-2020-8476
+For the Central Licensing Server component used in ABB products ABB Ability™ System 800xA and related system extensions versions 5.1, 6.0 and 6.1, Compact HMI versions 5.1 and 6.0, Control Builder Safe 1.0, 1.1 and 2.0, Symphony Plus -S+ Operations 3.0 to 3.2 Symphony Plus -S+ Engineering 1.1 to 2.2, Composer Harmony 5.1, 6.0 and 6.1, Melody Composer 5.3, 6.1/6.2 and SPE for Melody 1.0SPx (Composer 6.3), Harmony OPC Server (HAOPC) Standalone 6.0, 6.1 and 7.0, ABB Ability™ System 800xA/ Advant® OCS Control Builder A 1.3 and 1.4, Advant® OCS AC100 OPC Server 5.1, 6.0 and 6.1, Composer CTK 6.1 and 6.2, AdvaBuild 3.7 SP1 and SP2, OPCServer for MOD 300 (non-800xA) 1.4, OPC Data Link 2.1 and 2.2, Knowledge Manager 8.0, 9.0 and 9.1, Manufacturing Operations Management 1812 and 1909, ABB AbilityTM SCADAvantage versions 5.1 to 5.6.5, a weakness in validation of input exists that allows an attacker to alter licenses assigned to the system nodes by sending specially crafted messages to the CLS web service.
+CWE-20
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:abb:compact_hmi:5.1:revision_d:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-29T02:15Z
+
+CVE-2020-8479
+For the Central Licensing Server component used in ABB products ABB Ability™ System 800xA and related system extensions versions 5.1, 6.0 and 6.1, Compact HMI versions 5.1 and 6.0, Control Builder Safe 1.0, 1.1 and 2.0, Symphony Plus -S+ Operations 3.0 to 3.2 Symphony Plus -S+ Engineering 1.1 to 2.2, Composer Harmony 5.1, 6.0 and 6.1, Melody Composer 5.3, 6.1/6.2 and SPE for Melody 1.0SPx (Composer 6.3), Harmony OPC Server (HAOPC) Standalone 6.0, 6.1 and 7.0, ABB Ability™ System 800xA/ Advant® OCS Control Builder A 1.3 and 1.4, Advant® OCS AC100 OPC Server 5.1, 6.0 and 6.1, Composer CTK 6.1 and 6.2, AdvaBuild 3.7 SP1 and SP2, OPCServer for MOD 300 (non-800xA) 1.4, OPC Data Link 2.1 and 2.2, Knowledge Manager 8.0, 9.0 and 9.1, Manufacturing Operations Management 1812 and 1909, ABB AbilityTM SCADAvantage versions 5.1 to 5.6.5. an XML External Entity Injection vulnerability exists that allows an attacker to read or call arbitrary files from the license server and/or from the network and also block the license handling.
+CWE-91
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:abb:compact_hmi:5.1:revision_d:*:*:*:*:*:*
+Not Foundational
+Published Date: 2020-04-29T02:15Z
+

@@ -1,0 +1,650 @@
+CVE-2021-22657
+mySCADA myPRO: Versions 8.20.0 and prior has a feature where the API password can be specified, which may allow an attacker to inject arbitrary operating system commands through a specific parameter.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-12-23T20:15Z
+
+CVE-2021-22669
+Incorrect permissions are set to default on the ‘Project Management’ page of WebAccess/SCADA portal of WebAccess/SCADA Versions 9.0.1 and prior, which may allow a low-privileged user to update an administrator’s password and login as an administrator to escalate privileges on the system.
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-04-26T19:15Z
+
+CVE-2021-22674
+The affected product is vulnerable to a relative path traversal condition, which may allow an attacker access to unauthorized files and directories on the WebAccess/SCADA (WebAccess/SCADA versions prior to 8.4.5, WebAccess/SCADA versions prior to 9.0.1).
+CWE-22
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-08-10T14:15Z
+
+CVE-2021-22676
+UserExcelOut.asp within WebAccess/SCADA is vulnerable to cross-site scripting (XSS), which could allow an attacker to send malicious JavaScript code. This could result in hijacking of cookie/session tokens, redirection to a malicious webpage, and unintended browser action on the WebAccess/SCADA (WebAccess/SCADA versions prior to 8.4.5, WebAccess/SCADA versions prior to 9.0.1).
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-08-10T15:15Z
+
+CVE-2021-22709
+A CWE-119:Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists in Interactive Graphical SCADA System (IGSS) Definition (Def.exe) V15.0.0.21041 and prior, which could result in loss of data or remote code execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-03-11T21:15Z
+
+CVE-2021-22710
+A CWE-119:Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists in Interactive Graphical SCADA System (IGSS) Definition (Def.exe) V15.0.0.21041 and prior, which could cause remote code execution when malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-03-11T21:15Z
+
+CVE-2021-22711
+A CWE-119:Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists in Interactive Graphical SCADA System (IGSS) Definition (Def.exe) V15.0.0.21041 and prior, which could result in arbitrary read or write conditions when malicious CGF (Configuration Group File) file is imported to IGSS Definition due to missing validation of input data.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-03-11T21:15Z
+
+CVE-2021-22712
+A CWE-119:Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists in Interactive Graphical SCADA System (IGSS) Definition (Def.exe) V15.0.0.21041 and prior, which could result in arbitrary read or write conditions when malicious CGF (Configuration Group File) file is imported to IGSS Definition due to an unchecked pointer address.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-03-11T21:15Z
+
+CVE-2021-22741
+Use of Password Hash with Insufficient Computational Effort vulnerability exists in ClearSCADA (all versions), EcoStruxure Geo SCADA Expert 2019 (all versions), and EcoStruxure Geo SCADA Expert 2020 (V83.7742.1 and prior), which could cause the revealing of account credentials when server database files are available. Exposure of these files to an attacker can make the system vulnerable to password decryption attacks. Note that “.sde” configuration export files do not contain user account password hashes.
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:clearscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-05-26T20:15Z
+
+CVE-2021-22750
+A CWE-787: Out-of-bounds write vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21041 and prior that could result in loss of data or remote code execution due to missing length checks, when a malicious CGF file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22751
+A CWE-787: Out-of-bounds write vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in disclosure of information or execution of arbitrary code due to lack of input validation, when a malicious CGF (Configuration Group File) file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22752
+A CWE-787: Out-of-bounds write vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in loss of data or remote code execution due to missing size checks, when a malicious WSP (Workspace) file is being parsed by IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22753
+A CWE-125: Out-of-bounds read vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in loss of data or remote code execution due to missing length checks, when a malicious WSP file is being parsed by IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22754
+A CWE-787: Out-of-bounds write vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in loss of data or remote code execution due to lack of proper validation of user-supplied data, when a malicious CGF file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22755
+A CWE-787: Out-of-bounds write vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in disclosure of information or remote code execution due to lack of sanity checks on user-supplied data, when a malicious CGF file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22756
+A CWE-125: Out-of-bounds read vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in disclosure of information or remote code execution due to lack of user-supplied data validation, when a malicious CGF file is imported to IGSS Definition.
+CWE-125
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22757
+A CWE-125: Out-of-bounds read vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in disclosure of information or remote code execution due to lack of sanity checks on user-supplied input data, when a malicious CGF file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22758
+A CWE-824: Access of uninitialized pointer vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in loss of data or remote code execution due to lack validation of user-supplied input data, when a malicious CGF file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22759
+A CWE-416: Use after free vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in loss of data or remote code execution due to use of unchecked input data, when a malicious CGF file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22760
+A CWE-763: Release of invalid pointer or reference vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in loss of data or remote code execution due to missing checks of user-supplied input data, when a malicious CGF file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22761
+A CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in disclosure of information or remote code e+F15xecution due to missing length check on user supplied data, when a malicious CGF file is imported to IGSS Definition.
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22762
+A CWE-22: Improper Limitation of a Pathname to a Restricted Directory vulnerability exists inIGSS Definition (Def.exe) V15.0.0.21140 and prior that could result in remote code execution, when a malicious CGF or WSP file is being parsed by IGSS Definition.
+CWE-22
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-11T16:15Z
+
+CVE-2021-22778
+Insufficiently Protected Credentials vulnerability exists in EcoStruxure Control Expert (all versions prior to V15.0 SP1, including all versions of Unity Pro), EcoStruxure Process Expert (all versions, including all versions of EcoStruxure Hybrid DCS), and SCADAPack RemoteConnect for x70, all versions, that could cause protected derived function blocks to be read or modified by unauthorized users when accessing a project file.
+CWE-522
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:remoteconnect:*:*:*:*:*:*:scadapack_x70:*
+foundational
+Published Date: 2021-07-14T15:15Z
+
+CVE-2021-22779
+Authentication Bypass by Spoofing vulnerability exists in EcoStruxure Control Expert (all versions prior to V15.0 SP1, including all versions of Unity Pro), EcoStruxure Control Expert V15.0 SP1, EcoStruxure Process Expert (all versions, including all versions of EcoStruxure Hybrid DCS), SCADAPack RemoteConnect for x70 (all versions), Modicon M580 CPU (all versions - part numbers BMEP* and BMEH*), Modicon M340 CPU (all versions - part numbers BMXP34*), that could cause unauthorized access in read and write mode to the controller by spoofing the Modbus communication between the engineering software and the controller.
+CWE-290
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:ecostruxure_control_expert:15.0:sp1:*:*:*:*:*:*
+foundational
+Published Date: 2021-07-14T15:15Z
+
+CVE-2021-22780
+Insufficiently Protected Credentials vulnerability exists in EcoStruxure Control Expert (all versions prior to V15.0 SP1, including all versions of Unity Pro), EcoStruxure Process Expert (all versions, including all versions of EcoStruxure Hybrid DCS), and SCADAPack RemoteConnect for x70, all versions, that could cause unauthorized access to a project file protected by a password when this file is shared with untrusted sources. An attacker may bypass the password protection and be able to view and modify a project file.
+CWE-522
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:remoteconnect:*:*:*:*:*:*:scadapack_x70:*
+foundational
+Published Date: 2021-07-14T15:15Z
+
+CVE-2021-22781
+Insufficiently Protected Credentials vulnerability exists in EcoStruxure Control Expert (all versions prior to V15.0 SP1, including all versions of Unity Pro), EcoStruxure Process Expert (all versions, including all versions of EcoStruxure Hybrid DCS), and SCADAPack RemoteConnect for x70, all versions, that could cause a leak of SMTP credential used for mailbox authentication when an attacker can access a project file.
+CWE-522
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:remoteconnect:*:*:*:*:*:*:scadapack_x70:*
+foundational
+Published Date: 2021-07-14T15:15Z
+
+CVE-2021-22782
+Missing Encryption of Sensitive Data vulnerability exists in EcoStruxure Control Expert (all versions prior to V15.0 SP1, including all versions of Unity Pro), EcoStruxure Process Expert (all versions, including all versions of EcoStruxure Hybrid DCS), and SCADAPack RemoteConnect for x70, all versions, that could cause an information leak allowing disclosure of network and process information, credentials or intellectual property when an attacker can access a project file.
+CWE-311
+LOCAL
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:remoteconnect:*:*:*:*:*:*:scadapack_x70:*
+foundational
+Published Date: 2021-07-14T15:15Z
+
+CVE-2021-22797
+A CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal) vulnerability exists that could cause malicious script to be deployed in an unauthorized location and may result in code execution on the engineering workstation when a malicious project file is loaded in the engineering software. Affected Product: EcoStruxure Control Expert (V15.0 SP1 and prior, including former Unity Pro), EcoStruxure Process Expert (2020 and prior, including former HDCS), SCADAPack RemoteConnect for x70 (All versions)
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:ecostruxure_control_expert:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-04-13T16:15Z
+
+CVE-2021-22802
+A CWE-120: Buffer Copy without Checking Size of Input vulnerability exists that could result in remote code execution due to missing length check on user supplied data, when a constructed message is received on the network. Affected Product: Interactive Graphical SCADA System Data Collector (dc.exe) (V15.0.0.21243 and prior)
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system_data_collector:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-11T18:15Z
+
+CVE-2021-22803
+A CWE-434: Unrestricted Upload of File with Dangerous Type vulnerability exists that could lead to remote code execution through a number of paths, when an attacker, writes arbitrary files to folders in context of the DC module, by sending constructed messages on the network. Affected Product: Interactive Graphical SCADA System Data Collector (dc.exe) (V15.0.0.21243 and prior)
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system_data_collector:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-11T18:15Z
+
+CVE-2021-22804
+A CWE-22: Improper Limitation of a Pathname to a Restricted Directory vulnerability exists that could cause disclosure of arbitrary files being read in the context of the user running IGSS, due to missing validation of user supplied data in network messages. Affected Product: Interactive Graphical SCADA System Data Collector (dc.exe) (V15.0.0.21243 and prior)
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system_data_collector:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-11T18:15Z
+
+CVE-2021-22805
+A CWE-306: Missing Authentication for Critical Function vulnerability exists that could cause deletion of arbitrary files in the context of the user running IGSS due to lack of validation of network messages. Affected Product: Interactive Graphical SCADA System Data Collector (dc.exe) (V15.0.0.21243 and prior)
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system_data_collector:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-11T18:15Z
+
+CVE-2021-22816
+A CWE-754: Improper Check for Unusual or Exceptional Conditions vulnerability exists that could cause a Denial of Service of the RTU when receiving a specially crafted request over Modbus, and the RTU is configured as a Modbus server. Affected Products: SCADAPack 312E, 313E, 314E, 330E, 333E, 334E, 337E, 350E and 357E RTUs with firmware V8.18.1 and prior
+CWE-754
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: 
+Not Foundational
+Published Date: 2022-01-28T20:15Z
+
+CVE-2021-22823
+A CWE-306: Missing Authentication for Critical Function vulnerability exists that could cause deletion of arbitrary files in the context of the user running IGSS due to lack of validation of network messages. Affected Product: Interactive Graphical SCADA System Data Collector (dc.exe) (V15.0.0.21320 and prior)
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system_data_collector:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-11T18:15Z
+
+CVE-2021-22824
+A CWE-120: Buffer Copy without Checking Size of Input vulnerability exists that could result in denial of service, due to missing length check on user-supplied data from a constructed message received on the network. Affected Product: Interactive Graphical SCADA System Data Collector (dc.exe) (V15.0.0.21320 and prior)
+CWE-120
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system_data_collector:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-02-11T18:15Z
+
+CVE-2021-23198
+mySCADA myPRO: Versions 8.20.0 and prior has a feature where the password can be specified, which may allow an attacker to inject arbitrary operating system commands through a specific parameter.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-12-23T20:15Z
+
+CVE-2021-26828
+OpenPLC ScadaBR through 0.9.1 on Linux and through 1.12.4 on Windows allows remote authenticated users to upload and execute arbitrary JSP files via view_edit.shtm.
+CWE-434
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:openplcproject:scadabr:*:*:*:*:*:windows:*:*
+foundational
+Published Date: 2021-06-11T12:15Z
+
+CVE-2021-26829
+OpenPLC ScadaBR through 0.9.1 on Linux and through 1.12.4 on Windows allows stored XSS via system_settings.shtm.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:openplcproject:scadabr:*:*:*:*:*:windows:*:*
+foundational
+Published Date: 2021-06-11T12:15Z
+
+CVE-2021-27436
+WebAccess/SCADA Versions 9.0 and prior is vulnerable to cross-site scripting, which may allow an attacker to send malicious JavaScript code to an unsuspecting user, which could result in hijacking of the user’s cookie/session tokens, redirecting the user to a malicious webpage and performing unintended browser actions.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-03-18T22:15Z
+
+CVE-2021-27505
+mySCADA myPRO versions prior to 8.20.0 does not restrict unauthorized read access to sensitive directory listing information.
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-13T16:15Z
+
+CVE-2021-32943
+The affected product is vulnerable to a stack-based buffer overflow, which may allow an attacker to remotely execute arbitrary code on the WebAccess/SCADA (WebAccess/SCADA versions prior to 8.4.5, WebAccess/SCADA versions prior to 9.0.1).
+CWE-787
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-08-10T15:15Z
+
+CVE-2021-32954
+Advantech WebAccess/SCADA Versions 9.0.1 and prior is vulnerable to a directory traversal, which may allow an attacker to remotely read arbitrary files on the file system.
+CWE-22
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-18T14:15Z
+
+CVE-2021-32956
+Advantech WebAccess/SCADA Versions 9.0.1 and prior is vulnerable to redirection, which may allow an attacker to send a maliciously crafted URL that could result in redirecting a user to a malicious webpage.
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess\/scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-06-18T14:15Z
+
+CVE-2021-32989
+When a non-existent resource is requested, the LCDS LAquis SCADA application (version 4.3.1.1011 and prior) returns error messages which may allow reflected cross-site scripting.
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:lcds:laquis_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-25T14:15Z
+
+CVE-2021-33001
+xArrow SCADA versions 7.2 and prior is vulnerable to cross-site scripting due to parameter ‘bdate’ of the resource xhisvalue.htm, which may allow an unauthorized attacker to execute arbitrary code.
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:xarrow:xarrow:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-16T18:15Z
+
+CVE-2021-33005
+mySCADA myPRO versions prior to 8.20.0 allows an unauthenticated remote attacker to upload arbitrary files to arbitrary directories.
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-13T16:15Z
+
+CVE-2021-33009
+mySCADA myPRO versions prior to 8.20.0 allows an unauthenticated remote attacker to upload arbitrary files to the file system.
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-13T16:15Z
+
+CVE-2021-33013
+mySCADA myPRO versions prior to 8.20.0 does not restrict unauthorized read access to sensitive system information.
+CWE-862
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-13T16:15Z
+
+CVE-2021-33021
+xArrow SCADA versions 7.2 and prior is vulnerable to cross-site scripting due to parameter ‘edate’ of the resource xhisalarm.htm, which may allow an unauthorized attacker to execute arbitrary code.
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:xarrow:xarrow:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-16T18:15Z
+
+CVE-2021-33025
+xArrow SCADA versions 7.2 and prior permits unvalidated registry keys to be run with application-level privileges.
+CWE-20
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:xarrow:xarrow:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-05-16T18:15Z
+
+CVE-2021-38431
+An authenticated user using Advantech WebAccess SCADA in versions 9.0.3 and prior can use API functions to disclose project names and paths from other users.
+CWE-862
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:advantech:webaccess_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-10-15T13:15Z
+
+CVE-2021-3958
+Improper Handling of Parameters vulnerability in Ipack Automation Systems Ipack SCADA Software allows : Blind SQL Injection.This issue affects Ipack SCADA Software: from unspecified before 1.1.0.
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:ipack:scada_automation:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-11-16T16:15Z
+
+CVE-2021-40142
+In OPC Foundation Local Discovery Server (LDS) before 1.04.402.463, remote attackers can cause a denial of service (DoS) by sending carefully crafted messages that lead to Access of a Memory Location After the End of a Buffer.
+CWE-119
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:siemens:simatic_wincc_unified_scada_runtime:-:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-08-27T07:15Z
+
+CVE-2021-41578
+mySCADA myDESIGNER 8.20.0 and below allows Directory Traversal attacks when importing project files. If an attacker can trick a victim into importing a malicious mep file, then they gain the ability to write arbitrary files to OS locations where the user has permission. This would typically lead to code execution.
+CWE-22
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mydesigner:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-10-04T18:15Z
+
+CVE-2021-41579
+LCDS LAquis SCADA through 4.3.1.1085 is vulnerable to a control bypass and path traversal. If an attacker can get a victim to load a malicious els project file and use the play feature, then the attacker can bypass a consent popup and write arbitrary files to OS locations where the user has permission, leading to code execution.
+CWE-22
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:laquisscada:scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-10-04T18:15Z
+
+CVE-2021-43555
+mySCADA myDESIGNER Versions 8.20.0 and prior fails to properly validate contents of an imported project file, which may make the product vulnerable to a path traversal payload. This vulnerability may allow an attacker to plant files on the file system in arbitrary locations or overwrite existing files, resulting in remote code execution.
+CWE-22
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mydesigner:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-11-19T19:15Z
+
+CVE-2021-43572
+The verify function in the Stark Bank Python ECDSA library (aka starkbank-escada or ecdsa-python) before 2.0.1 fails to check that the signature is non-zero, which allows attackers to forge signatures on arbitrary messages.
+CWE-347
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:starkbank:ecdsa-python:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-11-09T22:15Z
+
+CVE-2021-43930
+Elcomplus SmartPTT is vulnerable as the backup and restore system does not adequately validate download requests, enabling malicious users to perform path traversal attacks and potentially download arbitrary files from the system.
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:smartptt:smartptt_scada:1.1:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-04-28T15:15Z
+
+CVE-2021-43932
+Elcomplus SmartPTT is vulnerable when an attacker injects JavaScript code into a specific parameter that can executed upon accessing the dashboard or the main page.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:smartptt:smartptt_scada:1.1:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-04-28T15:15Z
+
+CVE-2021-43934
+Elcomplus SmartPTT is vulnerable as the backup and restore system does not adequately validate upload requests, enabling a malicious user to potentially upload arbitrary files.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:smartptt:smartptt_scada:1.1:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-04-28T15:15Z
+
+CVE-2021-43937
+Elcomplus SmartPTT SCADA Server web application does not, or cannot, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request.
+CWE-352
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:smartptt:scada_server:1.4:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-04-29T16:15Z
+
+CVE-2021-43938
+Elcomplus SmartPTT SCADA Server is vulnerable to an unauthenticated user can request various files from the server without any authentication or authorization.
+CWE-862
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:smartptt:scada_server:1.4:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-04-29T16:15Z
+
+CVE-2021-43939
+Elcomplus SmartPTT is vulnerable when a low-authenticated user can access higher level administration authorization by issuing requests directly to the desired endpoints.
+NVD-CWE-Other
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:smartptt:smartptt_scada:1.1:*:*:*:*:*:*:*
+foundational
+Published Date: 2022-04-28T15:15Z
+
+CVE-2021-43981
+mySCADA myPRO: Versions 8.20.0 and prior has a feature to send emails, which may allow an attacker to inject arbitrary operating system commands through a specific parameter.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-12-23T20:15Z
+
+CVE-2021-43984
+mySCADA myPRO: Versions 8.20.0 and prior has a feature where the firmware can be updated, which may allow an attacker to inject arbitrary operating system commands through a specific parameter.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-12-23T20:15Z
+
+CVE-2021-43985
+An unauthenticated remote attacker can access mySCADA myPRO Versions 8.20.0 and prior without any form of authentication or authorization.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-12-23T20:15Z
+
+CVE-2021-43987
+An additional, nondocumented administrative account exists in mySCADA myPRO Versions 8.20.0 and prior that is not exposed through the web interface, which cannot be deleted or changed through the regular web interface.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-12-23T20:15Z
+
+CVE-2021-43989
+mySCADA myPRO Versions 8.20.0 and prior stores passwords using MD5, which may allow an attacker to crack the previously retrieved password hashes.
+CWE-327
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-12-23T20:15Z
+
+CVE-2021-44453
+mySCADA myPRO: Versions 8.20.0 and prior has a vulnerable debug interface which includes a ping utility, which may allow an attacker to inject arbitrary operating system commands.
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2021-12-23T20:15Z
+

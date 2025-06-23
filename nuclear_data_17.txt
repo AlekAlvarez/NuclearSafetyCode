@@ -1,0 +1,260 @@
+CVE-2017-12694
+A Directory Traversal issue was discovered in SpiderControl SCADA Web Server. An attacker may be able to use a simple GET request to perform a directory traversal into system files.
+CWE-22
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:spidercontrol:scada_web_server:-:*:*:*:*:*:*:*
+Not Foundational
+Published Date: 2017-08-25T19:29Z
+
+CVE-2017-12707
+A Stack-based Buffer Overflow issue was discovered in SpiderControl SCADA MicroBrowser Versions 1.6.30.144 and prior. Opening a maliciously crafted html file may cause a stack overflow.
+CWE-119
+NETWORK
+Severity: CRITICAL
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:spidercontrol:scada_microbrowser:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-08-25T19:29Z
+
+CVE-2017-12728
+An Improper Privilege Management issue was discovered in SpiderControl SCADA Web Server Version 2.02.0007 and prior. Authenticated, non-administrative local users are able to alter service executables with escalated privileges, which could allow an attacker to execute arbitrary code under the context of the current system services.
+CWE-269
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:spidercontrol:scada_webserver:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-10-05T01:29Z
+
+CVE-2017-12730
+An Unquoted Search Path issue was discovered in mySCADA myPRO Versions 7.0.26 and prior. Application services utilize unquoted search path elements, which could allow an attacker to execute arbitrary code with elevated privileges.
+CWE-428
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:myscada:mypro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-10-06T04:29Z
+
+CVE-2017-12732
+A Stack-based Buffer Overflow issue was discovered in GE CIMPLICITY Versions 9.0 and prior. A function reads a packet to indicate the next packet length. The next packet length is not verified, allowing a buffer overwrite that could lead to an arbitrary remote code execution.
+CWE-119
+ADJACENT_NETWORK
+Severity: MEDIUM
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:ge:intelligent_platforms_proficy_hmi\/scada_cimplicity:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-10-05T21:29Z
+
+CVE-2017-14029
+An Uncontrolled Search Path Element issue was discovered in Trihedral VTScada 11.3.03 and prior. The program will execute specially crafted malicious dll files placed on the target machine.
+CWE-427
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trihedral:vtscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-11-06T22:29Z
+
+CVE-2017-14031
+An Improper Access Control issue was discovered in Trihedral VTScada 11.3.03 and prior. A local, non-administrator user has privileges to read and write to the file system of the target machine.
+CWE-269
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trihedral:vtscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-11-06T22:29Z
+
+CVE-2017-16721
+A Cross-site Scripting issue was discovered in Geovap Reliance SCADA Version 4.7.3 Update 2 and prior. This vulnerability could allow an unauthenticated attacker to inject arbitrary code.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:geovap:reliance-scada:4.7.3:update2:*:*:*:*:*:*
+foundational
+Published Date: 2017-12-04T15:29Z
+
+CVE-2017-5161
+An issue was discovered in Sielco Sistemi Winlog Lite SCADA Software, versions prior to Version 3.02.01, and Winlog Pro SCADA Software, versions prior to Version 3.02.01. An uncontrolled search path element (DLL Hijacking) vulnerability has been identified. Exploitation of this vulnerability could give an attacker access to the system with the same level of privilege as the application that utilizes the malicious DLL.
+CWE-427
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:sielcosistemi:winlog_pro:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-02-13T21:59Z
+
+CVE-2017-6016
+An Improper Access Control issue was discovered in LCDS - Leao Consultoria e Desenvolvimento de Sistemas LTDA ME LAquis SCADA. The following versions are affected: Versions 4.1 and prior versions released before January 20, 2017. An Improper Access Control vulnerability has been identified, which may allow an authenticated user to modify application files to escalate privileges.
+NVD-CWE-noinfo
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:leao_consultoria_e_desenvolvimento_de_sistemas:ltda_me_laquis_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-05-19T03:29Z
+
+CVE-2017-6020
+Leao Consultoria e Desenvolvimento de Sistemas (LCDS) LTDA ME LAquis SCADA software versions prior to version 4.1.0.3237 do not neutralize external input to ensure that users are not calling for absolute path sequences outside of their privilege level.
+CWE-22
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:lcds:laquis_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-04-17T14:29Z
+
+CVE-2017-6021
+In Schneider Electric ClearSCADA 2014 R1 (build 75.5210) and prior, 2014 R1.1 (build 75.5387) and prior, 2015 R1 (build 76.5648) and prior, and 2015 R2 (build 77.5882) and prior, an attacker with network access to the ClearSCADA server can send specially crafted sequences of commands and data packets to the ClearSCADA server that can cause the ClearSCADA server process and ClearSCADA communications driver processes to terminate. A CVSS v3 base score of 7.5 has been assigned; the CVSS vector string is (AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).
+CWE-20
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:aveva:clearscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-05-14T14:29Z
+
+CVE-2017-6029
+A Cross-Site Scripting issue was discovered in Certec EDV GmbH atvise scada prior to Version 3.0. This may allow remote code execution.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:certec_edv_gmbh:atvise_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-05-06T00:29Z
+
+CVE-2017-6031
+A Header Injection issue was discovered in Certec EDV GmbH atvise scada prior to Version 3.0. An "improper neutralization of HTTP headers for scripting syntax" issue has been identified, which may allow remote code execution.
+CWE-74
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:certec_edv_gmbh:atvise_scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-05-06T00:29Z
+
+CVE-2017-6033
+A DLL Hijacking issue was discovered in Schneider Electric Interactive Graphical SCADA System (IGSS) Software, Version 12 and previous versions. The software will execute a malicious file if it is named the same as a legitimate file and placed in a location that is earlier in the search path.
+CWE-427
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-04-07T22:59Z
+
+CVE-2017-6043
+A Resource Consumption issue was discovered in Trihedral VTScada Versions prior to 11.2.26. The client does not properly validate the input or limit the amount of resources that are utilized by an attacker, which can be used to consume more resources than are available.
+CWE-400
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trihedral:vtscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-06-21T19:29Z
+
+CVE-2017-6045
+An Information Exposure issue was discovered in Trihedral VTScada Versions prior to 11.2.26. Some files are exposed within the web server application to unauthenticated users. These files may contain sensitive configuration information.
+CWE-200
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trihedral:vtscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-06-21T19:29Z
+
+CVE-2017-6053
+A Cross-Site Scripting issue was discovered in Trihedral VTScada Versions prior to 11.2.26. A cross-site scripting vulnerability may allow JavaScript code supplied by the attacker to execute within the user's browser.
+CWE-79
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:trihedral:vtscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-06-21T19:29Z
+
+CVE-2017-7969
+A cross-site request forgery vulnerability exists on the Secure Gateway component of Schneider Electric's PowerSCADA Anywhere v1.0 redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert v8.2 and Citect Anywhere version 1.0 for multiple state-changing requests. This type of attack requires some level of social engineering in order to get a legitimate user to click on or access a malicious link/site containing the CSRF attack.
+CWE-352
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:citect_anywhere:1.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-09-26T01:29Z
+
+CVE-2017-7970
+A vulnerability exists in Schneider Electric's PowerSCADA Anywhere v1.0 redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert v8.2 and Citect Anywhere version 1.0 that allows the ability to specify Arbitrary Server Target Nodes in connection requests to the Secure Gateway and Server components.
+NVD-CWE-noinfo
+ADJACENT_NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:citect_anywhere:1.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-09-26T01:29Z
+
+CVE-2017-7971
+A vulnerability exists in Schneider Electric's PowerSCADA Anywhere v1.0 redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert v8.2 and Citect Anywhere version 1.0 that allows the use of outdated cipher suites and improper verification of peer SSL Certificate.
+CWE-295
+NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:citect_anywhere:1.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-09-26T01:29Z
+
+CVE-2017-7972
+A vulnerability exists in Schneider Electric's PowerSCADA Anywhere v1.0 redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert v8.2 and Citect Anywhere version 1.0 that allows the ability to escape out of remote PowerSCADA Anywhere applications and launch other processes.
+NVD-CWE-noinfo
+ADJACENT_NETWORK
+Severity: MEDIUM
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:citect_anywhere:1.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-09-26T01:29Z
+
+CVE-2017-9661
+An Uncontrolled Search Path Element issue was discovered in SIMPlight SCADA Software version 4.3.0.27 and prior. The uncontrolled search path element vulnerability has been identified, which may allow an attacker to place a malicious DLL file within the search path resulting in execution of arbitrary code.
+CWE-427
+LOCAL
+Severity: HIGH
+Complexity: HIGH
+CPE 23 Uri: cpe:2.3:a:simplight:scada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-08-14T16:29Z
+
+CVE-2017-9962
+Schneider Electric's ClearSCADA versions released prior to August 2017 are susceptible to a memory allocation vulnerability, whereby malformed requests can be sent to ClearSCADA client applications to cause unexpected behavior. Client applications affected include ViewX and the Server Icon.
+CWE-119
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:aveva:clearscada:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2017-09-26T01:29Z
+
+CVE-2017-9963
+A cross-site request forgery vulnerability exists on the Secure Gateway component of Schneider Electric's PowerSCADA Anywhere v1.0 redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert v8.2 and Citect Anywhere version 1.0 for multiple state-changing requests. This type of attack requires some level of social engineering in order to get a legitimate user to click on or access a malicious link/site containing the CSRF attack.
+CWE-352
+NETWORK
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:powerscada_anywhere:1.0:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-02-12T23:29Z
+
+CVE-2017-9967
+A security misconfiguration vulnerability exists in Schneider Electric's IGSS SCADA Software versions 12 and prior. Security configuration settings such as Address Space Layout Randomization (ASLR) and Data Execution prevention (DEP) were not properly configured resulting in weak security.
+NVD-CWE-noinfo
+LOCAL
+Severity: HIGH
+Complexity: LOW
+CPE 23 Uri: cpe:2.3:a:schneider-electric:interactive_graphical_scada_system:*:*:*:*:*:*:*:*
+foundational
+Published Date: 2018-02-12T23:29Z
+
